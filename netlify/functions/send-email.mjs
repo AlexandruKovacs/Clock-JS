@@ -3,6 +3,9 @@ import nodemailer from "nodemailer";
 export async function handler(event) {
   const { name, email, subject, message } = JSON.parse(event.body);
 
+
+  console.log(process.env.GMAIL_USER, process.env.GMAIL_APP_PASSWORD, process.env.RECEIVING_EMAIL);
+  
   const transporter = nodemailer.createTransport({
     service: "gmail",
     auth: {
