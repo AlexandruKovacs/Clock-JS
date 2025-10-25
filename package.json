@@ -1,0 +1,23 @@
+{
+  "name": "clock-js",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexandruKovacs/Clock-JS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlexandruKovacs/Clock-JS/issues"
+  },
+  "homepage": "https://github.com/AlexandruKovacs/Clock-JS#readme",
+  "description": "",
+  "dependencies": {
+    "nodemailer": "^7.0.10"
+  }
+}
