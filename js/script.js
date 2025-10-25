@@ -19,7 +19,7 @@ document.getElementById("contact-form").addEventListener("submit", async (e) => 
   e.preventDefault();
   const formData = Object.fromEntries(new FormData(e.target).entries());
   
-  
+  console.log(process.env.GMAIL_USER, process.env.GMAIL_APP_PASSWORD, process.env.RECEIVING_EMAIL);
   
   const res = await fetch("/.netlify/functions/send-email", {
     method: "POST",
