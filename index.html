@@ -9,8 +9,18 @@
   </head>
   <body>
     <div class="clock">
+      <div class="hour">
+        <div class="hr" id="hr"></div>
+      </div>
+      <div class="min">
+        <div class="mn" id="mn"></div>
+      </div>
+      <div class="sec">
+        <div class="sc" id="sc"></div>
+      </div>
+    </div>
 
-<form name="contact" id="contact-form" action="/.netlify/functions/send-email" class="php-email-form">
+    <form name="contact" id="contact-form" action="/.netlify/functions/send-email" class="php-email-form">
       <p>
         <label>Name <input type="text" name="name" /></label>
       </p>
@@ -27,17 +37,6 @@
         <button type="submit">Send</button>
       </p>
     </form>
-
-      <div class="hour">
-        <div class="hr" id="hr"></div>
-      </div>
-      <div class="min">
-        <div class="mn" id="mn"></div>
-      </div>
-      <div class="sec">
-        <div class="sc" id="sc"></div>
-      </div>
-    </div>
 
     <script src="js/script.js"></script>
   </body>
